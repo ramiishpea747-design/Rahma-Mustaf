@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Restaurant</title>
+
+    <!-- Internal CSS -->
+    <style>
+        * {
+            font-family: Arial;
+        }
+
+        header {
+            background-color: blue; /* color name */
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        #logo {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style-type: none;
+            background-color: #f4f4f4; /* hex */
+            padding: 10px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(255, 0, 0); /* RGB */
+        }
+
+        .special {
+            background-color: rgba(0, 0, 0, 0.5); /* RGBA */
+            color: white;
+            padding: 10px;
+        }
+
+        footer {
+            background-color: hsl(200, 50%, 50%); /* HSL */
+            text-align: center;
+            padding: 10px;
+            color: white;
+        }
+
+        img {
+            float: right;
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div id="logo">My Restaurant</div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+    </ul>
+</nav>
+
+<main>
+
+    <h2 style="color: green;">Welcome to Our Restaurant</h2> <!-- Inline CSS -->
+
+    <div>
+        <img src="https://via.placeholder.com/200">
+        <p>We serve the best food in town. Delicious and fresh meals everyday.</p>
+    </div>
+
+    <div class="special">
+        <h3>Special Offers</h3>
+        <p>Get 20% discount today!</p>
+    </div>
+
+    <h3>Top 3 Best Sellers</h3>
+    <ol>
+        <li>Pizza</li>
+        <li>Burger</li>
+        <li>Pasta</li>
+    </ol>
+
+</main>
+
+<footer>
+    <p>© 2026 My Restaurant</p>
+</footer>
+
+</body>
+</html>
